@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;800&family=Manrope&family=Poppins:wght@400;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+body {
+	background-color: #f4f5fa;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #f4f5fa;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #fa7e4e;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #fa9f1c;
+}
+
+@media (max-width: 600px) {
+	::-webkit-scrollbar {
+		width: 0;
+	}
+}

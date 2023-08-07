@@ -1,0 +1,25 @@
+@mixin button-format {
+	text-decoration: none;
+	width: 100%;
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	background-color: $orange-color;
+	border-radius: 4px;
+	cursor: pointer;
+	padding: 12px 61px;
+}
+
+@mixin hidden-content {
+	opacity: 0;
+	overflow: hidden;
+	height: 0px;
+}
+
+@mixin span-text-format($size) {
+	margin-left: 3px;
+	font-size: $size;
+	font-weight: bold;
+	color: black;
+	line-height: inherit;
+}

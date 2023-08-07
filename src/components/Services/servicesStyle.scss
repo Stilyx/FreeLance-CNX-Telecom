@@ -1,0 +1,45 @@
+@import "../../styles/variables.scss";
+
+.services-container {
+	background-color: $orange-color;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 438px;
+	margin-bottom: 96px;
+	position: relative;
+	font-family: $barlow-text;
+
+	.service-girl-image {
+		z-index: 10;
+		img {
+			width: 649px;
+			height: 438px;
+
+			@media screen and (max-width: 1120px) {
+				display: none;
+			}
+		}
+	}
+	.services {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		z-index: 10;
+
+		.services-title {
+			margin-top: 40px;
+			margin-bottom: 26px;
+			color: white;
+			font-size: 47px;
+			line-height: 55.999px;
+		}
+
+		.services-content {
+			display: flex;
+			flex-direction: column;
+			gap: 35px;
+		}
+	}
+}
