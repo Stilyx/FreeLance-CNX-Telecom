@@ -16,9 +16,9 @@
 	height: 0px;
 }
 
-@mixin span-text-format($size) {
+@mixin span-text-format() {
 	margin-left: 3px;
-	font-size: $size;
+
 	font-weight: bold;
 	color: black;
 	line-height: inherit;

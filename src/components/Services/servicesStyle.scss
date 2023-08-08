@@ -35,12 +35,22 @@
 			color: white;
 			font-size: 47px;
 			line-height: 55.999px;
+
+			@media (max-width: 500px) {
+				font-size: 30px;
+			}
 		}
 
 		.services-content {
 			display: flex;
 			flex-direction: column;
 			gap: 35px;
+		}
+
+		@media (max-width: 500px) {
+			.services-content {
+				width: 340px;
+			}
 		}
 	}
 }

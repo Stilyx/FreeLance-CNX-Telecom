@@ -32,7 +32,8 @@
 			gap: 20px;
 
 			span {
-				@include span-text-format(70px);
+				@include span-text-format;
+				font-size: 70px;
 			}
 		}
 
@@ -44,7 +45,8 @@
 			line-height: 30px;
 
 			span {
-				@include span-text-format(inherit);
+				@include span-text-format;
+				font-size: inherit;
 			}
 		}
 	}
@@ -65,7 +67,8 @@
 				font-size: 32px;
 
 				span {
-					@include span-text-format(50px);
+					@include span-text-format;
+					font-size: 50px;
 				}
 			}
 
@@ -90,6 +93,31 @@
 
 		img {
 			display: none;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.introduction-text {
+			.introduction-title {
+				h1 {
+					font-size: 25px;
+				}
+
+				span {
+					@include span-text-format;
+					font-size: 35px;
+				}
+			}
+
+			.introduction-paragraph {
+				p {
+					font-size: 16px;
+				}
+
+				span {
+					font-size: inherit;
+				}
+			}
 		}
 	}
 }

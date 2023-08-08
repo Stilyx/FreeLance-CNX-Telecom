@@ -49,6 +49,7 @@
 
 		.earnings-container {
 			grid-template-columns: repeat(2, 1fr);
+			gap: 30px;
 			.earnings {
 				h3 {
 					font-size: 20px;
