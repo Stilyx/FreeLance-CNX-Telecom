@@ -27,17 +27,29 @@
 		}
 	}
 
-	.copy-text {
+	.copy-container {
 		color: #252525;
 		width: 100%;
 		display: flex;
 		position: absolute;
 		justify-content: center;
-		bottom: 10px;
+		align-items: center;
+		flex-direction: column;
+		bottom: -15px;
+		gap: 5px;
 
 		span {
 			color: $orange-color;
 			margin-left: 5px;
+		}
+
+		a {
+			color: $orange-color;
+			margin-left: 5px;
+
+			&:hover {
+				opacity: 60%;
+			}
 		}
 	}
 
@@ -105,8 +117,8 @@
 			flex-direction: row;
 		}
 
-		.copy-text {
-			bottom: -65px;
+		.copy-container {
+			bottom: -80px;
 		}
 	}
 }

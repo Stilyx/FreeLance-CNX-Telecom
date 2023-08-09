@@ -36,9 +36,18 @@ function Footer() {
 				</div>
 			</section>
 
-			<p className='copy-text'>
-				© 2023 <span> CNX Telecom </span>
-			</p>
+			<div className='copy-container'>
+				<p>
+					© 2023 <span> CNX Telecom </span>
+				</p>
+
+				<p>
+					Developed By
+					<a href='https://www.linkedin.com/in/daniel-nunes-963333239/'>
+						dani.perfil.profissional@gmail.com
+					</a>
+				</p>
+			</div>
 		</footer>
 	);
 }
