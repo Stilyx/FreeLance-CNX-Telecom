@@ -35,7 +35,7 @@ function Header() {
 				window.scrollTo({top: 1610, behavior: "smooth"});
 				break;
 			case "contact":
-				window.scrollTo({top: 1962, behavior: "smooth"});
+				window.scrollTo({top: 3200, behavior: "smooth"});
 				break;
 		}
 	};
