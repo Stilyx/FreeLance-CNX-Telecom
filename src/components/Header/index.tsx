@@ -10,7 +10,7 @@ function Header() {
 	const [menuActive, setMenuActive] = useState(false);
 	const fixHeader = () => {
 		window.scrollY >= 80 ? setpageView(true) : setpageView(false);
-		console.log(window.scrollY);
+
 		if (window.scrollY <= 400) return setNavScroll("home");
 		if (window.scrollY <= 800) return setNavScroll("about");
 		if (window.scrollY <= 1200) return setNavScroll("services");
