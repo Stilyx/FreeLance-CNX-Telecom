@@ -1,17 +1,7 @@
 import React from "react";
 
 import "./aboutStyle.scss";
-
-import earningIcon from "../../assets/earning-icon.png";
-
-const earningsObj = [
-	{logo: earningIcon, title: "Lorem ipsum", paragraph: "Lorem ipsum dolor sit amet"},
-	{logo: earningIcon, title: "Lorem ipsum", paragraph: "Lorem ipsum dolor sit amet"},
-	{logo: earningIcon, title: "Lorem ipsum", paragraph: "Lorem ipsum dolor sit amet"},
-	{logo: earningIcon, title: "Lorem ipsum", paragraph: "Lorem ipsum dolor sit amet"},
-	{logo: earningIcon, title: "Lorem ipsum", paragraph: "Lorem ipsum dolor sit amet"},
-	{logo: earningIcon, title: "Lorem ipsum", paragraph: "Lorem ipsum dolor sit amet"}
-];
+import {earningsObj} from "../../Messages/about";
 
 function AboutComponent() {
 	return (
