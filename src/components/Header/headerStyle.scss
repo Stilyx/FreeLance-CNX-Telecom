@@ -134,11 +134,10 @@
 			visibility: visible;
 			overflow-y: auto;
 			position: fixed;
-			align-items: center;
-			justify-content: center;
 			text-align: center;
 			border-radius: 10px;
 			box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
+			@include items-center;
 
 			label {
 				height: 60px;

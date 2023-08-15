@@ -59,9 +59,8 @@
 
 	@media (max-width: 1010px) {
 		.introduction-text {
-			align-items: center;
-			justify-content: center;
 			text-align: center;
+			@include items-center;
 
 			.introduction-title {
 				font-size: 32px;

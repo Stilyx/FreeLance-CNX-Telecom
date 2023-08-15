@@ -23,3 +23,8 @@
 	color: black;
 	line-height: inherit;
 }
+
+@mixin items-center {
+	align-items: center;
+	justify-content: center;
+}
