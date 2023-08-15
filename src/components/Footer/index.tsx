@@ -43,12 +43,8 @@ function Footer() {
 
 				<p>
 					Developed By
-					<a
-						href='https://www.linkedin.com/in/daniel-nunes-963333239/'
-						target='_blank'
-						rel='noreferrer'
-					>
-						dani.perfil.profissional@gmail.com
+					<a href='https://www.linkedin.com/in/stilyx/' target='_blank' rel='noreferrer'>
+						Daniel Nunes
 					</a>
 				</p>
 			</div>
