@@ -108,6 +108,18 @@
 	animation-delay: 19s;
 }
 
+@media (max-width: 600px) {
+	.background li:nth-child(9) {
+		visibility: hidden;
+	}
+	.background li:nth-child(10) {
+		visibility: hidden;
+	}
+	.background li:nth-child(11) {
+		visibility: hidden;
+	}
+}
+
 @keyframes animate {
 	0% {
 		transform: translateY(0) rotate(0deg);
