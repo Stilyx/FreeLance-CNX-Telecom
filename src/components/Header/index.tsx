@@ -96,11 +96,7 @@ function Header() {
 					checked={navScroll === "contact" ? true : false}
 				/>
 				<label htmlFor='contact'>Fale conosco</label>
-				<button className='menu-button'>
-					<a href='https://assine.cnx.net.br/divulgador/login' target='_blank' rel='noreferrer'>
-						Entrar
-					</a>
-				</button>
+				<button className='menu-button'>Entrar</button>
 			</nav>
 
 			<div
@@ -112,11 +108,7 @@ function Header() {
 				<span className='hamburguer-bar'></span>
 			</div>
 
-			<button className='enter-button'>
-				<a href='https://assine.cnx.net.br/divulgador/login' target='_blank' rel='noreferrer'>
-					Entrar
-				</a>
-			</button>
+			<button className='enter-button'>Entrar</button>
 		</header>
 	);
 }

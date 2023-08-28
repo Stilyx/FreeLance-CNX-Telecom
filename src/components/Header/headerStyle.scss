@@ -76,10 +76,7 @@
 
 	.enter-button {
 		border: none;
-
-		a {
-			@include button-format;
-		}
+		@include button-format;
 
 		&:hover {
 			opacity: 0.8;
@@ -150,10 +147,9 @@
 				position: absolute;
 				border: none;
 				width: 80%;
+				justify-content: center;
 				bottom: 20px;
-				a {
-					@include button-format;
-				}
+				@include button-format;
 			}
 		}
 	}
